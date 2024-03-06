@@ -1,0 +1,120 @@
+@import url('https://fonts.googleapis.com/css2?family=Nova+Round&display=swap');
+
+
+
+
+* { text-align:center;}
+ body{
+
+    }
+
+* {
+     font-family: 'Nova Round', cursive;
+     }
+
+
+ body {
+ background-size: 1000px;
+ background-color: black;
+ }
+
+.intro {
+font-size:20px;
+}
+
+p {
+color: white;
+}
+
+h1 {
+color: white;
+text-align: center;
+font-size: 48px;
+
+}
+
+
+a {
+ font-family: 'Nova Round', cursive;
+color: #ff9a8d;
+text-decoration: none;
+}
+
+
+a:hover {
+color: #ffc7b7;
+text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
+}
+
+
+h3 {
+text-align: center;
+color: #ff5733;
+text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
+}
+
+.cricket {
+background-image: url("https://example.com/cricket-image.jpg");
+background-size: cover;
+background-position: center;
+height: 500px;
+display: flex;
+justify-content: center;
+align-items: center;
+}
+
+
+
+
+.cricket h3 {
+font-size:20px;
+color: #fff;
+text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
+}
+
+.cricket p {
+color: #fff;
+font-size: 14px;
+text-align: center;
+max-width: 800px;
+margin: 0 auto;
+}
+
+button {
+
+  background-color: #02376B;
+    color: #fff;
+   border: none;
+   display: block;
+   
+   cursor: pointer;
+   font-size: 1.1rem;
+   font-family: 'Nova Round', cursive;
+   padding: 10px 20px;
+   margin:auto
+   
+}
+
+     button:hover {
+         background-color: #0B60B5;
+}
+
+     button:focus {
+        outline: none;
+        background-color: #1ed3e0;
+}
+
+
+* {
+   align-items: center;
+
+}
+
+.container{
+  display: flex;
+  max-width: 100%;
+  overflow-x: auto;
+  
+
+
+}
